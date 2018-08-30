@@ -56,14 +56,14 @@ input:focus { outline: none; }
 
 label {
 	color: #999;
-	opacity: 0;
-	font-size: 18px;
+	opacity: 1;
+	font-size: 16px;
 	font-weight: normal;
 	position: absolute;
 	pointer-events: none;
 	left: 5px;
-	top: 10px;
 	transition: all 0.2s ease;
+	top: -20px;
 }
 
 
@@ -71,7 +71,7 @@ label {
 
 input:focus ~ label, input.used ~ label {
 	top: -20px;
-  transform: scale(.75); left: -2px;
+  transform: scale(.90); left: -0px;
 	/* font-size: 14px; */
 	color: #4a89dc;
 	opacity: 1;
