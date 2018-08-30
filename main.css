@@ -61,7 +61,7 @@ label {
 	font-weight: normal;
 	position: absolute;
 	pointer-events: none;
-	left: 5px;
+  left: 2px;
 	transition: all 0.2s ease;
 	top: -20px;
 }
@@ -71,7 +71,7 @@ label {
 
 input:focus ~ label, input.used ~ label {
 	top: -20px;
-  transform: scale(.90); left: 0px;
+
 	/* font-size: 14px; */
 	color: #4a89dc;
 	opacity: 1;
@@ -180,36 +180,12 @@ input:focus ~ .highlight {
 input.button[type="submit"] {
   -webkit-appearance: none; }
 
-.button--raised {
-  background: rgba(158,158,158, 0.20);
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); }
-  .button--raised:active {
-    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
-    background-color: rgba(158,158,158, 0.40); }
-  .button--raised:focus:not(:active) {
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.18), 0 8px 16px rgba(0, 0, 0, 0.36);
-    background-color: rgba(158,158,158, 0.40); }
-  .button--raised.button--colored {
-    background: rgb(63,81,181);
-    color: rgb(255,255,255); }
-    .button--raised.button--colored:hover {
-      background-color: rgb(63,81,181); }
-    .button--raised.button--colored:active {
-      background-color: rgb(63,81,181); }
-    .button--raised.button--colored:focus:not(:active) {
-      background-color: rgb(63,81,181); }
-    .button--raised.button--colored .mdl-ripple {
-      background: rgb(255,255,255); }
 
 
-/* Button modifiers */
 
-.buttonBlue {
-  background: #4a89dc;
-  text-shadow: 1px 1px 0 rgba(39, 110, 204, .5);
-}
 
-.buttonBlue:hover { background: #357bd8; }
+
+
 
 
 /* Ripples container */
