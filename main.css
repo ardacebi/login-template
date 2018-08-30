@@ -71,7 +71,7 @@ label {
 
 input:focus ~ label, input.used ~ label {
 	top: -20px;
-  transform: scale(.90); left: -0px;
+  transform: scale(.90); left: 0px;
 	/* font-size: 14px; */
 	color: #4a89dc;
 	opacity: 1;
@@ -171,7 +171,7 @@ input:focus ~ .highlight {
   .button:hover {
     background-color: rgb(44, 57, 130); }
   .button:focus:not(:active) {
-    background-color: rgb(32, 42, 96); }
+     }
   .button:active {
 		box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
 		background-color: rgb(32, 42, 96);
